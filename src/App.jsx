@@ -1,6 +1,6 @@
 import './App.css';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider
 } from 'react-router-dom';
 import Layout from './pages/Layout/Layout';
@@ -10,7 +10,7 @@ import UsersPage2 from './pages/UsersPage2/UsersPage2';
 import UserPage from './pages/UserPage/UserPage';
 import Contact from './pages/Contact/Contact';
 
-const router = createBrowserRouter([{
+const router = createHashRouter([{
   path: '/',
   element: <Layout />,
   errorElement: <h1>...Error</h1>,

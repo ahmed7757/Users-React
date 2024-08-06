@@ -1,0 +1,43 @@
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  border: 2px solid #12121232;
+  gap: 20px;
+  align-items: center;
+  border-radius: 9px;
+}
+
+.userContainer h1 {
+  font-size: 2rem;
+}
+
+.userCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.userCard img {
+  width: 350px;
+  height: auto;
+  border: #12121232 1px solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 5px;
+}
+
+.details h3 {
+  font-size: 1.3rem;
+}
+
+.details p {
+  font-size: 1rem;
+}
